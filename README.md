@@ -6,6 +6,14 @@
 
 ![CC Visual Screenshot](https://raw.githubusercontent.com/Jettlin927/cc-visual/main/preview.png)
 
+**TypeScript · Express · Canvas · SQLite · Server-Sent Events**
+
+- 同时读取 Claude Code JSONL 与 Codex SQLite 事件，统一映射为运行、等待和空闲状态。
+- 使用 SSE 实时推送会话变化，用 Canvas 将工具调用和任务状态转成可视反馈。
+- 本地优先，不上传会话内容；安装后打开浏览器即可查看。
+
+[快速开始](#快速开始) · [工作原理](#工作原理) · [English README](./README_EN.md)
+
 ## 支持的 AI 编程工具
 
 | 工具 | 数据来源 | 状态检测方式 |
